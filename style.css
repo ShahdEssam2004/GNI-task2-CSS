@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+span {
+  color: #8B5CF6;
+}
+
+/****************** Start Nav ********************/
+.nav {
+  background-color: #10213b;
+  padding: 30px 0;
+  color: white;
+}
+.navbar {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+.links ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+.links ul li a:hover {
+  color: #9d84ed;
+}
+/****************** End Nav ********************/
+
+/****************** Start home ********************/
+#home {
+  /* background-color: bisque; */
+  color: white;
+  height: 420px;
+  background-image:
+    linear-gradient(rgba(10, 25, 50, 0.45), rgba(10, 25, 50, 0.45)),
+    url(photo-1500530855697-b586d89ba3ee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.home-content {
+  /* background-color: aquamarine; */
+  width: 550px;
+}
+.home-content h1 {
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+}
+.home-content p {
+  padding: 20px 0;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+}
+.home-content button {
+    background-color: #8654fb;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 40px;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.home-content button:hover
+{
+    background-color: #7941fd;
+    transform: translateY(-5px);
+}
+/****************** End home ********************/
+
+/****************** Start courses ********************/
+#courses {
+  background-color: #F5F7FB;
+  padding: 50px 0;
+}
+.course-title h2
+{
+font-size: 32px;
+font-weight: 700;
+line-height: 51px;
+color: #172b4d;
+}
+.course-title p
+{
+    color: #64748b;
+    padding: 20px 0;
+}
+.course-carts
+{
+    /* background-color: antiquewhite; */
+    display: flex;
+    gap: 40px;
+}
+.course-cart
+{
+    padding: 25px;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+.course-cart:hover
+{
+    transform: translateY(-5px);
+   box-shadow: rgba(0, 0, 0, 0.176) 0px 16px 48px 0px;
+
+}
+.course-cart h3
+{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #172b4d;
+}
+.course-cart p
+{
+    line-height: 24px;
+    color: #475569;
+    padding: 15px 0;
+}
+.course-cart button
+{
+    font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+color: #8B5CF6;
+border: none;
+background-color: transparent;
+transition: all 0.5s;
+cursor: pointer;
+}
+.course-cart button:hover
+{
+    color: #4c1d95;
+
+}
+
+.cart1 {
+  background-color: #eee8ff;
+  position: relative;
+}
+.badge
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: white;
+    background-color: #8B5CF6;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.cart2 {
+  background-color: #e0f2fe;
+}
+.cart3 {
+  background-color: #dff8ee;
+}
+/****************** End courses ********************/
+
+/****************** Start about ********************/
+#about {
+  background-color: #10213b;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+#about h3
+{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+#about p
+{
+    font-size: 14px;
+    color: #cbd5e1;
+}
+/****************** End about ********************/
