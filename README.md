@@ -5,7 +5,7 @@ A modern and responsive landing page for a creative learning academy.
 
 ## 🌐 Project Repository
 
-[View Repository on GitHub](https://github.com/ShahdEssam2004/GNI-task2-CSS)
+[View Repository on GitHub](https://shahdessam2004.github.io/GNI-task2-CSS/)
 
 ## 📸 Website Preview
 
