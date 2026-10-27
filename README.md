@@ -41,7 +41,7 @@ A modern and responsive landing page for a creative learning academy.
 1. Clone the repository:
 
    ```bash
-   https://github.com/ShahdEssam2004/GNI-task2-CSS.git
+   git clone https://github.com/ShahdEssam2004/GNI-task2-CSS.git
    ```
 
 2. Open the project folder.
